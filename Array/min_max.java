@@ -12,7 +12,7 @@ public class min_max {
     
     static pair getMinMax(long a[], long n)  
     {
-        //Write your code here
+
         long min= a[0];
         for(int i=0; i<a.length; i++){
             if(a[i]<min){
