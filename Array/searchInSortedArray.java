@@ -12,7 +12,7 @@
 
 
 class Solution{
-    static int searchInSorted(int arr[], int N, int K)
+    public static int searchInSorted(int arr[], int N, int K)
     {
     
         int low=0;
@@ -22,6 +22,7 @@ class Solution{
             if(arr[mid]==K){
                 return 1;
             }
+            
             if(arr[mid]>K){
                 high= mid-1;
             }else{
