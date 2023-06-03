@@ -29,5 +29,6 @@ public class min_max {
         
       pair p= new pair(min,max);
       return p;
+        
     }
 }
