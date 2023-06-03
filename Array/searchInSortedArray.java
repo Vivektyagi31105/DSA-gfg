@@ -12,7 +12,7 @@
 
 
 class Solution{
-    public static int searchInSorted(int arr[], int N, int K)
+     static int searchInSorted(int arr[], int N, int K)
     {
     
         int low=0;
